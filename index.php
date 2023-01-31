@@ -12,3 +12,8 @@
  *
  * 5. Utilisez le chaînage des méthodes pour mettre à jour le nom et le prix en une seule ligne.
  */
+
+require './classes/VODService.php';
+
+$service = new VODService();
+$service->setName('roue')->setPrice(22.7);
